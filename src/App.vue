@@ -6,14 +6,14 @@
         <thermo-gauge-1  />
       </div>
       <div class="column">
-        <h2>rvgauge</h2>
-        <rv-gauge-1/>
+        <h2>curve</h2>
+        <curve-heating/>
       </div>
     </div>
     <div class="row">
       <div class="column">
-        <h2>curve</h2>
-        <curve-heating/>
+        <h2>rvgauge</h2>
+        <rv-gauge-1/>
       </div>
       <div class="column">
         <h2>coolinggraph</h2>

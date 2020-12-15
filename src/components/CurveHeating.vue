@@ -21,7 +21,7 @@ export default {
         series: [
           {
             type: 'Temperature',
-            values: ['33', '28.1', '21.1', '20.3', '22.9']
+            values: ['33.2', '28.1', '21.1', '20.3', '22.9']
           },
         ]
       },

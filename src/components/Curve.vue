@@ -131,7 +131,8 @@
           //   return text.join('');
           // },
           tooltips: { enabled: false },
-          hover: {mode: null},
+          hover: {
+            mode: null},
           //   mode: 'index',
           //   position: 'nearest',
           //   custom: (tooltip) => {
@@ -230,14 +231,6 @@
               }
             ],
           },
-          // hover: {
-          //   onHover: function(e) {
-          //     // indicate that a datapoint is draggable by showing the 'grab' cursor when hovered
-          //     const point = this.getElementAtEvent(e)
-          //     if (point.length) e.target.style.cursor = 'grab'
-          //     else e.target.style.cursor = 'default'
-          //   }
-          // },
           animation: {
             duration: 1,
             onComplete: chartInstance => {
